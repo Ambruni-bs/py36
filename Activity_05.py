@@ -1,6 +1,6 @@
-a = input("Enter a list element separated by space ")
-list  = a.split()[:5]
+lst = []
+lst = [int(item) for item in input("Enter 5 numbers : ").split()]
 sum = 0
-for i in list:
+for i in lst:
     sum = sum + int (i)
 print("Sum of all the numbers = ",sum)
