@@ -1,9 +1,9 @@
 import math
 def input_number():
-   l = int(input("Enter the length "))
-   b = int(input("Enter the breadth "))
-   h = int(input("Enter the heigth "))
-   return l,b,h
+    val=input("Enter the length, breadth and height").split(" ")
+    val=[float(i) for i in val]
+    return val[0],val[1],val[2]
+
 
 def volume(l,b,h):
     k = (l*l) + (b*b) + (h*h)
