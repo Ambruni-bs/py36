@@ -12,3 +12,5 @@ print(c)
 print( '{x}  +  {y}  = {z}' .format(x=a,y=b,z=c))
 
 print(f"{a} + {b} = {c}")
+
+print(" %d + %d = %d " %(a,b,c))
