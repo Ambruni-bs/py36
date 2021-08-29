@@ -10,3 +10,5 @@ print(b,end=' = ')
 print(c)
 
 print( '{x}  +  {y}  = {z}' .format(x=a,y=b,z=c))
+
+print(f"{a} + {b} = {c}")
